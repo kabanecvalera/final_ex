@@ -1,0 +1,28 @@
+.Shape-128, .Shape-153, .Shape-155, .Shape-170{
+	background: url(sprites.png) no-repeat;
+}
+
+.Shape-128{
+	background-position: 0 0;
+	width: 45px;
+	height: 45px;
+}
+
+.Shape-153{
+	background-position: 0 -103px ;
+	width: 45px;
+	height: 45px;
+}
+
+.Shape-155{
+	background-position: -1px -52px ;
+	width: 45px;
+	height: 44px;
+}
+
+.Shape-170{
+	background-position: 0 -153px ;
+	width: 45px;
+	height: 45px;
+}
+

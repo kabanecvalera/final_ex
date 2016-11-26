@@ -1,0 +1,46 @@
+.ideas_bg_m6, .ideas_bg_m7, .ideas_bg_m, .ideas_bg_m2, .ideas_bg_m3, .ideas_bg_m4, .ideas_bg_m5{
+	background: url(sprites.png) no-repeat;
+}
+
+.ideas_bg_m6{
+	background-position: -303px -249px ;
+	width: 300px;
+	height: 121px;
+}
+
+.ideas_bg_m7{
+	background-position: -304px -375px ;
+	width: 300px;
+	height: 121px;
+}
+
+.ideas_bg_m{
+	background-position: 0 0;
+	width: 300px;
+	height: 121px;
+}
+
+.ideas_bg_m2{
+	background-position: 0 -125px ;
+	width: 300px;
+	height: 121px;
+}
+
+.ideas_bg_m3{
+	background-position: 0 -249px ;
+	width: 300px;
+	height: 121px;
+}
+
+.ideas_bg_m4{
+	background-position: -304px -1px ;
+	width: 300px;
+	height: 121px;
+}
+
+.ideas_bg_m5{
+	background-position: -305px -124px ;
+	width: 300px;
+	height: 121px;
+}
+

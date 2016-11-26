@@ -1,0 +1,36 @@
+.foto1_m, .foto2_m, .foto3_m, .foto4_m{
+	background: url(sprites.png) no-repeat;
+}
+
+
+
+.foto1_m{
+	background-position: 0 0;
+	width: 121px;
+	height: 121px;
+}
+
+
+
+.foto2_m{
+	background-position: 0 -129px ;
+	width: 121px;
+	height: 120px;
+}
+
+
+
+.foto3_m{
+	background-position: 0 -258px ;
+	width: 121px;
+	height: 121px;
+}
+
+
+
+.foto4_m{
+	background-position: 0 -387px ;
+	width: 121px;
+	height: 121px;
+}
+
