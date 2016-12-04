@@ -44,12 +44,20 @@ body {
 }
 
 .header-ref {
-        padding: 1.6em 0 0.8em 3.5em;
+    width: 100%;
+    height: 150px;
+    padding: 1.5em 0 3em 4em;
+}
+
+.header-ref-box{
+    width: 56%;
+    height: 10%;
+    padding-left: 1em;
 }
 
 .header-ref1 {
     color: #fff;
-    font: 700 1em 'Montserrat Bold';
+    font: .9em 'Montserrat Bold';
     font-weight: bold;
     text-decoration: none;
     padding-right: 1em;
@@ -65,9 +73,9 @@ body {
     -moz-border-radius: 28px;
     border-radius: 25px;
     color: #fff;
-    font: 700 1em 'Montserrat Bold';
-    padding: 10px 20px 10px 20px;
-    border: solid #fff 3px;
+    font: .9em 'Montserrat Bold';
+    padding: 8px 20px 8px 20px;
+    border: solid #fff 2px;
     text-decoration: none;
     }
 
@@ -82,39 +90,38 @@ body {
     text-decoration: none;
     }
 
-.header-txt {
-    padding: 5em 0 1em;
-}
-
-.header-txt-service {
+.header-ref-txt {
+    width: 50%;
+    height: 20%;
     color: #fff;
     font: 700 1.1em 'Montserrat Bold';
-    padding-left: 71px;
+    float: left;
+    padding: 7em 0 0 .5em;
 }
 
 .header-txt-topic {
     color: #fff;
     font: 700 1.8em 'Montserrat Bold';
-    padding: 1.2em 0 0 0.5em;
+    padding-left: .2em;
     text-align: center;
 }
 
 .header-txt-indent {
     color: #fff;
     font: 300 1em 'Roboto';
-    padding: 1em 4em 1.2em;
+    padding: 1em 2.5em 1.5em 2.5em;
     text-align: center;
 }
 
 .header-txt-btn {
     background: #FD4D4F;
-    -webkit-border-radius: 28px;
-    -moz-border-radius: 28px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
     border-radius: 25px;
     color: #fff;
     font: 700 0.8em 'Montserrat Bold';
-    padding: 12px 40px;
-    margin-left: 3em;
+    padding: 12px 52px;
+    margin-left: 2em;
     text-decoration: none;
 }
 
@@ -129,8 +136,8 @@ body {
 }
 
 .content-works {
-    width: 90%;
-    margin: 1em 1em 0;
+    width: 93%;
+    margin: 2.2em auto 0;
 }
 
 .content-header {
@@ -141,7 +148,7 @@ body {
 .content-works-first {
     background-image: url(../img/step1_m.jpg);
     height: 240px;
-    margin-top: 0.5em;
+    margin-top: 1em;
 }
 
 .content-works-second {
@@ -157,7 +164,7 @@ body {
 }
 
 .content-works-block {
-    padding: 5em 0 0 1em;
+    padding: 4.5em 0 0 1em;
 }
 
 .content-works-btn {
@@ -166,9 +173,9 @@ body {
     -moz-border-radius: 25px;
     border-radius: 25px;
     color: #fff;
-    font: 400 0.7em 'Montserrat Light';
+    font: .6em 'Montserrat Light';
     text-transform: uppercase;
-    padding: 6px 20px 6px 20px;
+    padding: 4px 20px;
     text-decoration: none;
 }
 
@@ -185,21 +192,23 @@ body {
 .content-works-top {
     color: #fff;
     font: 600 1.5em 'Montserrat Bold';
-    padding-top: 1em;
+    padding-top: .6em;
 }
 
 .content-works-txt {
     color: #ccc;
     font: 300 .85em 'Roboto';
+    padding-top: 15px;
 }
+
 .content-holiday {
-    width: 75%;
-    margin: 1em auto;
+    width: 90%;
+    margin: 2.2em auto;
 }
 
 .content-holiday-head {
     color: #333;
-    font: 700 1.25em 'Montserrat Bold';
+    font: 700 1.4em 'Montserrat Bold';
     text-align: center;
 }
 
@@ -210,14 +219,17 @@ body {
     height: 200px;
     text-align: center;
     position: relative;
-    margin-top: 1em;
+    margin: 1em 0 1.7em 2em;
+}
+
+.co-worker3{
+    margin-top: 60px;
 }
 
 .co-worker-txt {
     width: 11em;
     height: 50px;
-    padding-top: 125px;
-    
+    padding-top: 140px;
 }
 
 .co-worker1-img {
@@ -293,25 +305,25 @@ body {
 }
 .co-worker-name {
     color: #333;
-    font: 700 .95em 'Montserrat Bold';
+    font: .9em 'Montserrat Bold';
     padding-left: 3.5em;
 }
 .co-worker-feature {
     width: 120%;
     color: #666;
     font: 300 14px 'Roboto';
-    padding-top: .5em;
+    padding: .9em 0 0 .5em;
 }
 
 .holiday-btn-box {
-    margin-top: .5em;
+    margin-top: 2.6em;
 }
 
 .content-holiday-btn {
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
-    padding: 10px 50px 10px 50px;
+    padding: 10px 76px;
     border: solid #FD4D4F 2px;
     margin-top: 10px;
     color: #ff4e50;
@@ -330,7 +342,7 @@ body {
 }
 
 .content-discover {
-    margin: 2em .6em;
+    margin: 2.6em 0 0 .6em;
     text-align: center;
 }
 
@@ -347,7 +359,7 @@ body {
 .content-discover7 {
     width: 100%;
     height: 121px;
-    margin-top: 1em;
+    margin-top: .8em;
 }
 
 .content-discover-img1 {
@@ -399,9 +411,10 @@ body {
 }
 
 .content-idea {
-    width: 90%;
-    margin: 1em 0 0 .6em;
-    border-bottom: 3px solid #FD4D4F;
+    width: 100%;
+    height: 230px;
+    margin-top: 2.2em;
+    border-bottom: 4px solid #FD4D4F;
 }
 
 .content-idea-head {
@@ -413,22 +426,22 @@ body {
 .content-idea-txt {
     color: #333;
     font: 300 1.1em 'Roboto';
-    padding: 1em 0 1em .5em;
+    padding: .6em 0 1em 1.2em;
 }
 
 .content-idea-form {
     margin: 0;
-   padding: .5em 0 0 .6em;
+   padding: .3em 0 0 1.2em;
 }
 
 .form-style {
-    padding: .7em 9em .7em .5em;
+    padding: .7em 9.7em .7em .5em;
     border: 1px solid #ccc;
     border-radius: .5em;
 }
 
 .idea-btn-box {
-    margin: 2em 1em 5em .5em;
+    margin: 1.3em 1em 5em 1.2em;
 }
 
 .content-idea-btn {
@@ -438,7 +451,7 @@ body {
     color: #fff;
     font: 700 .8em 'Montserrat Bold';
     background: #FD4D4F;
-    padding: .7em 6.09em;
+    padding: .95em 6.8em;
     text-decoration: none;
 }
 
@@ -453,20 +466,20 @@ body {
 }
 
 .footer {
-    margin-top: 2em;
+    margin-top: 1.1em;
 }
 
 .footer-service {
     color: #ff4e50;
     font: 700 1em 'Montserrat Bold';
-    padding-left: 5em;
+    padding-left: 6em;
     margin-top: 5em;
 }
 
 .footer-company {
     color: #333;
     font: 700 .85em 'Montserrat Bold';
-    padding: 1em 0 1em 8em;
+    padding: .6em 0 .5em 9.5em;
 }
 
 .footer-menu {
@@ -480,40 +493,40 @@ nav {
 
 ul {
   margin: 0;
-  margin-left: 1em;
+  margin-left: 3.5em;
   list-style: none;
   float: left;
-  height: 1em;
-  line-height: 1em;
+  height: .9em;
+  line-height: .9em;
   text-align:center;
 }
 
 ul li {
-  margin-left: 1.3em;
+  margin-left: .5em;
   display: inline-block;
 }
 
 ul li a {
     text-decoration: none;
-    font: 300 .9em Roboto;
+    font: 300 .9em 'Roboto';
     color: #666;
 }
 
 .footer-partners {
     color: #333;
     font: 700 .85em 'Montserrat Bold';
-    padding: 0 0 1em 8em;
+    padding:0 0 1em 9.7em;
 }
 
 .footer-design {
     color: #ccc;
-    font: 700 .5em 'Montserrat Bold';
+    font: 700 .7em 'Montserrat Bold';
     text-transform: uppercase;
-    margin: 0 0 1em 14em;
+    margin: 0 0 1em 11em;
 }
 
 .footer-logo {
-    margin: .5em 0 0 5em;
+    margin: .3em 0 0 6.5em;
     padding-bottom: 1em;
 }
 
@@ -528,7 +541,25 @@ ul li a {
     height: 700px;
 }
     .header-ref {
-    padding: 2.5em 0 0.8em 33em;
+    width: 100%;
+    height: 20%;
+    padding-top: 1.6em;
+}
+
+.header-ref-txt {
+    width: 20%;
+    height: 20%;
+    color: #000;
+    font: 700 1.1em 'Montserrat Bold';
+    float: left;
+    border: 1px solid #000;
+    float: left;
+}
+
+.header-ref-box{
+   width: 30%;
+    height: 20%;
+    border: 1px solid #000;
 }
     
     .header-txt {
