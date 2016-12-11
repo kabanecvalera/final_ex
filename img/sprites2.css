@@ -1,45 +1,45 @@
-.ideas_bg_m6, .ideas_bg_m7, .ideas_bg_m, .ideas_bg_m2, .ideas_bg_m3, .ideas_bg_m4, .ideas_bg_m5{
+.sport_m, .wellnes_m, .extreme_m, .games_m, .culture_m, .relaxation_m, .travelling_m{
 	background: url(sprites.png) no-repeat;
 }
 
-.ideas_bg_m6{
-	background-position: -303px -249px ;
-	width: 300px;
-	height: 121px;
-}
-
-.ideas_bg_m7{
-	background-position: -304px -375px ;
-	width: 300px;
-	height: 121px;
-}
-
-.ideas_bg_m{
+.sport_m{
 	background-position: 0 0;
 	width: 300px;
 	height: 121px;
 }
 
-.ideas_bg_m2{
-	background-position: 0 -125px ;
+.wellnes_m{
+	background-position: 0 -124px ;
 	width: 300px;
 	height: 121px;
 }
 
-.ideas_bg_m3{
+.extreme_m{
 	background-position: 0 -249px ;
 	width: 300px;
 	height: 121px;
 }
 
-.ideas_bg_m4{
-	background-position: -304px -1px ;
+.games_m{
+	background-position: 0 -374px ;
 	width: 300px;
 	height: 121px;
 }
 
-.ideas_bg_m5{
-	background-position: -305px -124px ;
+.culture_m{
+	background-position: 0 -499px ;
+	width: 300px;
+	height: 121px;
+}
+
+.relaxation_m{
+	background-position: 0 -625px ;
+	width: 300px;
+	height: 121px;
+}
+
+.travelling_m{
+	background-position: 0 -749px ;
 	width: 300px;
 	height: 121px;
 }
